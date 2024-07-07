@@ -10,7 +10,7 @@ const updateLogin= (newState)=>{
   setLogin(newState)
 }
   return (
-    <div className={"w-screen h-screen flex justify-center items-center"}>
+    <div className={"w-screen h-screen flex justify-center items-center "}>
 
       {
       login ? (<Login updateLogin={updateLogin}/>) : (<Signup  updateLogin={updateLogin}/>)
