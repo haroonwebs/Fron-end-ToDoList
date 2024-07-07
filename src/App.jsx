@@ -1,27 +1,16 @@
-import Signup from "./Signup"
-import Login from "./Login"
-import { useState } from "react"
-import Home from "./Components/Home"
-<compone></compone>
+// import Signup from "./Signup"
+// import Login from "./Login"
+// import { useState } from "react"
+// import Home from "./Components/Home"
+import Index from "./Components/LayOut/index"
+
 
 function App() {
   
-const [login, setLogin]= useState(true)
-
-const updateLogin= (newState)=>{
-  setLogin(newState)
-}
   return (
-    <div className={"w-screen h-screen flex justify-center items-center "}>
-
-      {/* {
-      login ? (<Login updateLogin={updateLogin}/>) : (<Signup  updateLogin={updateLogin}/>)
-      } */}
-       
-       <Home/>
-  
-    </div>
-  )
-}
+    <div className="w-screen h-screen bg-gray-200 ">
+      <Index/>
+     </div>
+)}
 
 export default App
